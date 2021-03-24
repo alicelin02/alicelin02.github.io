@@ -1,0 +1,76 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+
+}
+
+html {
+  /* background-color: #dff9fb; */
+  /* color: #15030B; */
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  /* border: 1px solid #FF6AAF; */
+}
+
+main {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li, ol {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  /* color: #FF6AAF; */
+}
+
+small {
+  font-weight: bold;
+  color: #FF6AAF;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 16px 0 32px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border-color: #FFDAEB;
+}
+
+
+button {
+  background-color: rgb(110, 110, 213);
+  background-color: #FF6AAF;
+
+  border-radius: 100px;
+  color: white;
+  padding: 14px 28px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+}
+
+
+
+button:hover {
+  opacity: 0.8;
+}
