@@ -21,6 +21,16 @@
     grid-template-columns: 1fr 1fr;
 }
 
+
+/* If the resolution is <700 then the grid goes to single columns - phone friendly */
+
+@media (max-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
 .centered {
     position: absolute;
     text-align: center;
