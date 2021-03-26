@@ -1,0 +1,33 @@
+.bg {
+    position: relative;
+    opacity: 0.8;
+    width: 100%;
+    z-index: 0;
+    background-size: 100%;
+}
+
+.square {
+    width: 50%;
+}
+
+.square:hover {
+    opacity: 0.5;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.centered {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: white;
+    font-size: 10vw;
+}
