@@ -145,11 +145,11 @@ var _jsxFileName = "C:\\Users\\emily\\OneDrive - University of St Andrews\\Docum
 
 const Footer = () => {
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-    className: _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.footerWrapper,
+    class: _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.footerWrapper,
     children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("footer", {
-      className: _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.footer,
+      class: _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.footer,
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-        className: _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.title,
+        class: _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.title,
         children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
           href: "/",
           children: "Yellow"
@@ -163,9 +163,9 @@ const Footer = () => {
         lineNumber: 10,
         columnNumber: 9
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("ul", {
-        className: _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.secondaryMenu,
+        class: _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.secondaryMenu,
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("li", {
-          className: _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.menuItem,
+          class: _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.menuItem,
           children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
             href: "/games",
             children: "Privacy Policy"
@@ -179,7 +179,7 @@ const Footer = () => {
           lineNumber: 15,
           columnNumber: 11
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("li", {
-          className: _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.menuItem,
+          class: _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.menuItem,
           children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
             href: "/stories",
             children: "Terms of Service"
@@ -236,11 +236,11 @@ var _jsxFileName = "C:\\Users\\emily\\OneDrive - University of St Andrews\\Docum
 
 const Header = () => {
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-    className: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.headerWrapper,
+    class: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.headerWrapper,
     children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("header", {
-      className: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.header,
+      class: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.header,
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
-        className: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.title,
+        class: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.title,
         children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
           href: "/",
           children: "Team Yellow"
@@ -254,9 +254,9 @@ const Header = () => {
         lineNumber: 12,
         columnNumber: 9
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("ul", {
-        className: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.primaryMenu,
+        class: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.primaryMenu,
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("li", {
-          className: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuItem,
+          class: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuItem,
           children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
             href: "/games",
             children: "Games"
@@ -270,7 +270,7 @@ const Header = () => {
           lineNumber: 17,
           columnNumber: 11
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("li", {
-          className: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuItem,
+          class: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuItem,
           children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
             href: "/support",
             children: "Support"
@@ -284,10 +284,10 @@ const Header = () => {
           lineNumber: 20,
           columnNumber: 11
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("li", {
-          className: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuItem,
+          class: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuItem,
           children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
             href: "/manage-stash",
-            className: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.stash,
+            class: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.stash,
             children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(next_image__WEBPACK_IMPORTED_MODULE_1___default.a, {
               src: "/svg/jewel.svg",
               alt: "Image of jewel",
@@ -308,7 +308,7 @@ const Header = () => {
           lineNumber: 22,
           columnNumber: 11
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("li", {
-          className: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuItem,
+          class: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuItem,
           children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
             href: "/store",
             children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(next_image__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -331,7 +331,7 @@ const Header = () => {
           lineNumber: 32,
           columnNumber: 11
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("li", {
-          className: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuItem,
+          class: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuItem,
           children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
             href: "log-in",
             children: "Log in"
@@ -345,7 +345,7 @@ const Header = () => {
           lineNumber: 41,
           columnNumber: 11
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("li", {
-          className: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuItem,
+          class: _styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuItem,
           children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
             href: "sign-up",
             children: "Sign up"
@@ -618,7 +618,7 @@ function Image(_ref) {
     unoptimized = false,
     priority = false,
     loading,
-    className,
+    class,
     quality,
     width,
     height,
@@ -626,7 +626,7 @@ function Image(_ref) {
     objectPosition,
     loader = defaultImageLoader
   } = _ref,
-      all = (0, _objectWithoutPropertiesLoose2.default)(_ref, ["src", "sizes", "unoptimized", "priority", "loading", "className", "quality", "width", "height", "objectFit", "objectPosition", "loader"]);
+      all = (0, _objectWithoutPropertiesLoose2.default)(_ref, ["src", "sizes", "unoptimized", "priority", "loading", "class", "quality", "width", "height", "objectFit", "objectPosition", "loader"]);
   let rest = all;
   let layout = sizes ? 'responsive' : 'intrinsic';
   let unsized = false;
@@ -817,7 +817,7 @@ function Image(_ref) {
     src: `data:image/svg+xml;base64,${(0, _toBase.toBase64)(sizerSvg)}`
   }) : null) : null, /*#__PURE__*/_react.default.createElement("img", Object.assign({}, rest, imgAttributes, {
     decoding: "async",
-    className: className,
+    class: class,
     ref: setRef,
     style: imgStyle
   })), priority ?
@@ -1107,7 +1107,7 @@ var _jsxFileName = "C:\\Users\\emily\\OneDrive - University of St Andrews\\Docum
 
 function Home() {
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-    className: _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.container,
+    class: _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.container,
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("title", {
         children: "Yellow"
@@ -1128,15 +1128,15 @@ function Home() {
       lineNumber: 10,
       columnNumber: 7
     }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("main", {
-      className: _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.main,
+      class: _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.main,
       children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("article", {
-        className: _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.wrapper,
+        class: _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.wrapper,
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_components_globals_header_js__WEBPACK_IMPORTED_MODULE_4__["default"], {}, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 19,
           columnNumber: 11
         }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("article", {
-          className: _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.section,
+          class: _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.section,
           children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(next_image__WEBPACK_IMPORTED_MODULE_2___default.a, {
             src: "/img/dog.png",
             alt: "Dog jumping and looking happy",
@@ -1147,14 +1147,14 @@ function Home() {
             lineNumber: 23,
             columnNumber: 13
           }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h2", {
-            className: _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.title,
+            class: _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.title,
             children: "Puppy Power is here!"
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 30,
             columnNumber: 13
           }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
-            className: _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.ctaButton,
+            class: _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.ctaButton,
             href: "/games/game",
             children: "Play Now"
           }, void 0, false, {

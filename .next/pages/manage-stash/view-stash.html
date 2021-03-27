@@ -1,0 +1,77 @@
+import Head from 'next/head'
+import styles from '../../styles/ViewStash.module.css'
+import Header from '../../components/globals/header-internal.js'
+import Footer from '../../components/globals/footer.js'
+import Image from 'next/image'
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelle's</title>
+    <link rel="stylesheet" href="../../styles/Footer.module.css"></link>
+</head>
+
+<body>
+      <div class={styles.container}>
+      <Head>
+        <title>Yellow</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <main class={styles.main}>
+
+        <article class={styles.wrapper}>
+
+          <Header />
+
+          <article class={styles.section}>
+
+            <div class={styles.stash}>
+
+              <Image 
+                src="/svg/jewel.svg"
+                alt="Image of jewel"
+                width={118}
+                height={111}
+              />
+
+              <span class={styles.quantity}>312</span>
+
+              <div class={styles.nav}><a class={styles.ctaButton} href="/manage-stash">Manage Stash</a><a class={styles.ctaButton} href="/manage-stash/view-stash">My Stash</a><a class={styles.ctaButton} href="/manage-stash/subscription">Subscription</a><a class={styles.ctaButton} href="/manage-stash/history">History</a></div>
+
+            </div>
+
+            <h2 class={styles.title}>My Stash</h2>
+
+            <div class={styles.stashBody}>
+
+              <div class={styles.links}>
+
+                <p class={styles.ctaButton}>Last payment: 50 jewels (23/2/21 12:35)</p>
+                <p class={styles.ctaButton}>Next payment: 50 jewels (31/4/21 12:15)</p>
+                <p class={styles.ctaButton}>Last Month's Jewel Total: 262 Jewels</p>
+
+              </div>
+
+              <div class={styles.description}>
+                See your most recent jewel purchases.
+              </div>
+
+            </div>
+
+          </article>
+
+        </article>
+
+        {/* <Footer /> */}
+
+      </main>
+
+
+    </div>
+</body>

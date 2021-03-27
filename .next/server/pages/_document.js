@@ -541,7 +541,7 @@ exports.default = initHeadManager;
 exports.DOMAttributeNames = void 0;
 const DOMAttributeNames = {
   acceptCharset: 'accept-charset',
-  className: 'class',
+  class: 'class',
   htmlFor: 'for',
   httpEquiv: 'http-equiv',
   noModule: 'noModule'
