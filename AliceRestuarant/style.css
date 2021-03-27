@@ -1,3 +1,5 @@
+/* Background image */
+
 .bg {
     position: relative;
     opacity: 0.8;
@@ -6,8 +8,11 @@
     background-size: 100%;
 }
 
+
+/* Square photos */
+
 .square {
-    width: 50%;
+    width: 100%;
 }
 
 .square:hover {
@@ -15,8 +20,9 @@
 }
 
 .grid {
-    padding-left: 15%;
-    padding-right: 15%;
+    column-gap: 5px;
+    row-gap: 5%;
+    padding: 15%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -34,12 +40,17 @@
 .centered {
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 h1 {
+    font-family: 'Lora', serif;
     color: white;
-    font-size: 10vw;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Lora', serif;
 }
