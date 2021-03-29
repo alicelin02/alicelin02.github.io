@@ -52,6 +52,12 @@ body {
     }
 }
 
+div.sticky-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 .nav-bar {
     list-style-type: none;
     height: auto;
