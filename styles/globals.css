@@ -8,12 +8,6 @@ body {
 
 }
 
-html {
-  /* background-color: #dff9fb; */
-  /* color: #15030B; */
-
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -21,7 +15,6 @@ a {
 
 * {
   box-sizing: border-box;
-  /* border: 1px solid #FF6AAF; */
 }
 
 main {

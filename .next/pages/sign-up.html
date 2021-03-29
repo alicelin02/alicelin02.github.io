@@ -1,0 +1,64 @@
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+import Header from '../components/globals/header.js'
+import Footer from '../components/globals/footer.js'
+import Login from '../styles/LogIn.module.css'
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelle's</title>
+    <link rel="stylesheet" href="../../styles/Footer.module.css"></link>
+</head>
+
+<body>
+    <div>
+      <Head>
+        <title>Yellow</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <main class={styles.main}>
+
+        <div id="id02" class={Login.modal}>
+    
+          <form class={Login.modalContent} action="/home" method="post">
+            <div class={Login.imgcontainer}>
+              <span class={Login.close} title="Close Modal"><a href = "/">&times;</a></span>
+            </div>
+
+            <div class={Login.container}>
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required></input>
+
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email Address" name="email" required></input>
+
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required></input>
+                
+              <label for="psw"><b>Confirm Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required></input>
+              
+              <label for="code"><b>Discount Code (optional)</b></label>
+              <input type="text" placeholder="Enter Code" name="code"></input>
+                
+              <button type="submit">Sign Up</button>
+            </div>
+
+            <div class={Login.container}>
+              <button type="button" class={Login.cancelbtn}><a href = "/">Cancel</a></button>
+              {/* <span class={Login.psw}><a href="#">Forgot Password?</a></span> */}
+            </div>
+          </form>
+        </div>
+
+      </main>
+
+    </div>
+</body>
