@@ -2,12 +2,10 @@
 
 .bg {
     position: relative;
-    opacity: 0.8;
     width: 100%;
     z-index: 0;
     background-size: 100%;
     padding: 0;
-    /* filter: brightness(90%); */
 }
 
 .title {
@@ -34,21 +32,49 @@ body {
     opacity: 0.5;
 }
 
+.Picture-One {
+    grid-area: pic1;
+}
+
+.Picture-Two {
+    grid-area: pic2;
+}
+
+.Picture-Three {
+    grid-area: pic3;
+}
+
+.Menu-Words {
+    grid-area: menuWords;
+}
+
+.Contact-Words {
+    grid-area: contact;
+}
+
+.About-Words {
+    grid-area: about;
+}
+
 .grid {
     column-gap: 5px;
-    row-gap: 5%;
+    row-gap: 2%;
     padding: 15%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "menuWords" "pic1" "contact" "pic2" "about" "pic3"
 }
 
 
 /* If the resolution is <700 then the grid goes to single columns - phone friendly */
 
-@media (max-width: 700px) {
+@media (min-width: 960px) {
     .grid {
+        column-gap: 2%;
+        row-gap: 5%;
+        padding: 15%;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "menuWords pic1" "pic2 contact" "about pic3"
     }
 }
 
