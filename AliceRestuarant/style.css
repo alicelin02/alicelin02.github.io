@@ -23,8 +23,6 @@
 /* Title on bg image */
 
 .title {
-    background-color: gray;
-    color: #6d3d14;
     display: inline;
     padding: 0.5rem;
     -webkit-box-decoration-break: clone;

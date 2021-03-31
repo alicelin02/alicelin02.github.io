@@ -2,17 +2,28 @@
 
 
 /* Index: 
+- Root colours
 - Body
 - Header/Main Nav
     - Navigation Bar
 - Footer
 - Typography 
+- Links
 */
+
+:root {
+    --dBlue: #05284b;
+    --mBlue: #094786;
+    --lBlue: #b0bedb;
+    --lBrown: #a57945;
+    --dBrown: #6D3D14;
+}
 
 
 /* Body */
 
 body {
+    font-family: 'Lora', serif;
     margin: 0;
 }
 
@@ -34,7 +45,7 @@ div.sticky-nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #094786;
+    background-color: var(--mBlue);
     top: 0;
     position: sticky;
     position: -webkit-sticky;
@@ -54,11 +65,12 @@ div.sticky-nav {
 }
 
 .nav-bar-li a:hover:not(.active) {
-    background-color: #b0bedb;
+    background-color: var(--lBlue);
+    color: var(--mBlue);
 }
 
 .active {
-    background-color: #05284b;
+    background-color: var(--dBlue);
 }
 
 
@@ -68,17 +80,35 @@ div.sticky-nav {
 /* Typography */
 
 h1 {
-    font-family: 'Lora', serif;
-    color: white;
     font-size: 80px;
+    color: white;
 }
 
 h2 {
     font-size: 40px;
-    font-family: 'Lora', serif;
 }
 
 h3 {
     font-size: 25px;
-    font-family: 'Lora', serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+/* Links */
+
+a {
+    text-decoration: none;
+    color: var(--mBlue);
+}
+
+a:hover {
+    color: var(--lBlue);
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
 }
