@@ -1,4 +1,16 @@
-/* Background image */
+/* Index of CSS
+- Background Image
+- Title
+- General Styling
+- Square photos
+- Grid and the areas of it
+- Navigation Bar
+- Phone Friendly Mods
+- Typography
+ */
+
+
+/* Background image  */
 
 .bg {
     position: relative;
@@ -9,6 +21,9 @@
     padding: 0;
 }
 
+
+/* Title on bg image */
+
 .title {
     background-color: gray;
     color: #6d3d14;
@@ -17,6 +32,20 @@
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
 }
+
+
+/* Title positioning */
+
+.centered {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* General Styles */
 
 body {
     margin: 0;
@@ -31,6 +60,17 @@ body {
 
 .square:hover {
     opacity: 0.5;
+}
+
+
+/* Grid and Grid areas */
+
+.grid {
+    column-gap: 5px;
+    row-gap: 2%;
+    padding: 15%;
+    display: grid;
+    grid-template-areas: "menuWords" "pic1" "contact" "pic2" "about" "pic3"
 }
 
 .Picture-One {
@@ -57,27 +97,8 @@ body {
     grid-area: about;
 }
 
-.grid {
-    column-gap: 5px;
-    row-gap: 2%;
-    padding: 15%;
-    display: grid;
-    grid-template-areas: "menuWords" "pic1" "contact" "pic2" "about" "pic3"
-}
 
-
-/* If the resolution is <700 then the grid goes to single columns - phone friendly */
-
-@media (min-width: 960px) {
-    .grid {
-        column-gap: 2%;
-        row-gap: 5%;
-        padding: 15%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "menuWords pic1" "pic2 contact" "about pic3"
-    }
-}
+/* Navigation bar */
 
 div.sticky-nav {
     position: -webkit-sticky;
@@ -118,13 +139,25 @@ div.sticky-nav {
     background-color: #05284b;
 }
 
-.centered {
-    position: absolute;
-    text-align: center;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+/* Phone Friendly Mods */
+
+
+/* If the resolution is <700 then the grid goes to single columns - phone friendly */
+
+@media (min-width: 960px) {
+    .grid {
+        column-gap: 2%;
+        row-gap: 5%;
+        padding: 15%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "menuWords pic1" "pic2 contact" "about pic3"
+    }
 }
+
+
+/* Typography */
 
 h1 {
     font-family: 'Lora', serif;
