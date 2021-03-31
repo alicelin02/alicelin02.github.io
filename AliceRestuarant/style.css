@@ -93,13 +93,13 @@
 /* Phone Friendly Mods */
 
 
-/* If the resolution is <700 then the grid goes to single columns - phone friendly */
+/* If the resolution is >960 then the grid goes to single columns - phone friendly */
 
 @media (min-width: 960px) {
     .grid {
         column-gap: 2%;
         row-gap: 5%;
-        padding: 15%;
+        padding: 10% 15% 10%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "menuWords pic1" "pic2 contact" "about pic3"

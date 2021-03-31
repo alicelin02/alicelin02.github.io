@@ -2,7 +2,9 @@
 
 
 /* Index: 
-- Root colours
+- Root
+    - Colours
+    - Font
 - Body
 - Header/Main Nav
     - Navigation Bar
@@ -17,6 +19,20 @@
     --lBlue: #b0bedb;
     --lBrown: #a57945;
     --dBrown: #6D3D14;
+    /* Font size for devices <960px */
+    --font-size-h1: 35px;
+    --font-size-h2: 25px;
+    --font-size-h3: 18px;
+    --font-size-p: 14px;
+}
+
+@media (min-width: 960px) {
+     :root {
+        --font-size-h1: 80px;
+        --font-size-h2: 35px;
+        --font-size-h3: 20px;
+        --font-size-p: 16px;
+    }
 }
 
 
@@ -98,27 +114,27 @@ div.sticky-nav {
 /* Typography */
 
 h1 {
-    font-size: 80px;
+    font-size: var(--font-size-h1);
     color: white;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: var(--font-size-h2);
 }
 
 h3 {
-    font-size: 25px;
+    font-size: var(--font-size-h3);
 }
 
 p {
-    font-size: 18px;
+    font-size: var(--font-size-p);
 }
 
 
 /* Links */
 
 a {
-    font-size: 18px;
+    font-size: var(--font-size-p);
     text-decoration: none;
     color: var(--mBlue);
 }
