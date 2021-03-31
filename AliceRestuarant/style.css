@@ -11,7 +11,7 @@
 
 .title {
     background-color: gray;
-    color: white;
+    color: #6d3d14;
     display: inline;
     padding: 0.5rem;
     -webkit-box-decoration-break: clone;
@@ -91,7 +91,7 @@ div.sticky-nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #5e9ad8;
+    background-color: #094786;
     top: 0;
     position: sticky;
     position: -webkit-sticky;
@@ -111,11 +111,11 @@ div.sticky-nav {
 }
 
 .nav-bar-li a:hover:not(.active) {
-    background-color: #ABBDD3;
+    background-color: #b0bedb;
 }
 
 .active {
-    background-color: #4374a7;
+    background-color: #05284b;
 }
 
 .centered {
