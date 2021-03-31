@@ -11,12 +11,14 @@
 /* Background image  */
 
 .bg {
+    display: block;
     position: relative;
     width: 100%;
     z-index: 0;
     background-size: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 
@@ -57,7 +59,8 @@
 .grid {
     column-gap: 5px;
     row-gap: 2%;
-    padding: 15%;
+    /* top left-right bottom */
+    padding: 10% 15% 10%;
     display: grid;
     grid-template-areas: "menuWords" "pic1" "contact" "pic2" "about" "pic3"
 }
