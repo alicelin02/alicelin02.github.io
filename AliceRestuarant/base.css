@@ -1,0 +1,84 @@
+/* This CSS file holds the styles that will be used across all pages */
+
+
+/* Index: 
+- Body
+- Header/Main Nav
+    - Navigation Bar
+- Footer
+- Typography 
+*/
+
+
+/* Body */
+
+body {
+    margin: 0;
+}
+
+
+/* Header/Main Nav */
+
+
+/* Navigation bar */
+
+div.sticky-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar {
+    list-style-type: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #094786;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.nav-bar-li {
+    float: left;
+}
+
+.nav-bar-li a {
+    display: block;
+    padding: 2px 16px;
+    width: max-content;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-bar-li a:hover:not(.active) {
+    background-color: #b0bedb;
+}
+
+.active {
+    background-color: #05284b;
+}
+
+
+/* Insert Footer styles here */
+
+
+/* Typography */
+
+h1 {
+    font-family: 'Lora', serif;
+    color: white;
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Lora', serif;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Lora', serif;
+}
