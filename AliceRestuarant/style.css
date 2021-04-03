@@ -104,3 +104,35 @@
         grid-template-areas: "menuWords pic1" "pic2 contact" "about pic3"
     }
 }
+
+/* stuff for the events gallery */
+/* HOW TO ALIGN center? */
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 39.99999%;
+    object-fit: cover;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  div.eventsgallery {
+      padding: 5%;
+  }
+
+  div.eventsgallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  
