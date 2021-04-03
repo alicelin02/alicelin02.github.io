@@ -136,4 +136,10 @@
     height: auto;
   }
 
-  
+  .eventsgrid {
+    column-gap: 2%;
+    row-gap: 5%;
+    padding: 10% 15% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
