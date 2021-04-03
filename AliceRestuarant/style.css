@@ -11,20 +11,20 @@
 /* Background image  */
 
 .bg {
+    display: block;
     position: relative;
     width: 100%;
     z-index: 0;
     background-size: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 
 /* Title on bg image */
 
 .title {
-    background-color: gray;
-    color: #6d3d14;
     display: inline;
     padding: 0.5rem;
     -webkit-box-decoration-break: clone;
@@ -59,7 +59,8 @@
 .grid {
     column-gap: 5px;
     row-gap: 2%;
-    padding: 15%;
+    /* top left-right bottom */
+    padding: 10% 15% 10%;
     display: grid;
     grid-template-areas: "menuWords" "pic1" "contact" "pic2" "about" "pic3"
 }
@@ -92,13 +93,13 @@
 /* Phone Friendly Mods */
 
 
-/* If the resolution is <700 then the grid goes to single columns - phone friendly */
+/* If the resolution is >960 then the grid goes to single columns - phone friendly */
 
 @media (min-width: 960px) {
     .grid {
         column-gap: 2%;
         row-gap: 5%;
-        padding: 15%;
+        padding: 10% 15% 10%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "menuWords pic1" "pic2 contact" "about pic3"

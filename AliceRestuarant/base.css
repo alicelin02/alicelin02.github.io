@@ -2,18 +2,62 @@
 
 
 /* Index: 
+- Root
+    - Colours
+    - Font
 - Body
 - Header/Main Nav
     - Navigation Bar
 - Footer
 - Typography 
+- Links
 */
+
+:root {
+    --dBlue: #05284b;
+    --mBlue: #094786;
+    --lBlue: #b0bedb;
+    --lBrown: #a57945;
+    --dBrown: #6D3D14;
+    /* Font size for devices <960px */
+    --font-size-h1: 35px;
+    --font-size-h2: 25px;
+    --font-size-h3: 18px;
+    --font-size-p: 14px;
+}
+
+@media (min-width: 960px) {
+     :root {
+        --font-size-h1: 80px;
+        --font-size-h2: 35px;
+        --font-size-h3: 20px;
+        --font-size-p: 16px;
+    }
+}
 
 
 /* Body */
 
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
 body {
+    font-family: 'Lora', serif;
     margin: 0;
+    overflow: hidden;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    overflow-y: scroll;
+    /* Add the ability to scroll */
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 
@@ -23,6 +67,7 @@ body {
 /* Navigation bar */
 
 div.sticky-nav {
+    /* display: block; */
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -34,7 +79,7 @@ div.sticky-nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #094786;
+    background-color: var(--mBlue);
     top: 0;
     position: sticky;
     position: -webkit-sticky;
@@ -54,11 +99,12 @@ div.sticky-nav {
 }
 
 .nav-bar-li a:hover:not(.active) {
-    background-color: #b0bedb;
+    background-color: var(--lBlue);
+    color: var(--mBlue);
 }
 
 .active {
-    background-color: #05284b;
+    background-color: var(--dBlue);
 }
 
 
@@ -68,17 +114,36 @@ div.sticky-nav {
 /* Typography */
 
 h1 {
-    font-family: 'Lora', serif;
+    font-size: var(--font-size-h1);
     color: white;
-    font-size: 80px;
 }
 
 h2 {
-    font-size: 40px;
-    font-family: 'Lora', serif;
+    font-size: var(--font-size-h2);
 }
 
 h3 {
-    font-size: 25px;
-    font-family: 'Lora', serif;
+    font-size: var(--font-size-h3);
+}
+
+p {
+    font-size: var(--font-size-p);
+}
+
+
+/* Links */
+
+a {
+    font-size: var(--font-size-p);
+    text-decoration: none;
+    color: var(--mBlue);
+}
+
+a:hover {
+    color: var(--lBlue);
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
 }
