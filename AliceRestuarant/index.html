@@ -49,22 +49,13 @@
                 </a>
             </li>
             <li class="nav-bar-li">
-                <a onclick="document.getElementById('id01').style.display='block'">
-                    <h3>
-                        <i class = "fa fa-user-circle"> Login</i>
-                    </h3>
-                </a>
-            </li>
-            <li class="nav-bar-li">
-                <a onclick="document.getElementById('id02').style.display='block'">
-                    <h3>
-                        <i class = "fa fa-user-circle"> Sign Up</i>
-                    </h3>
+                <a href="login.html">
+                    <h3><i class="fa fa-user-circle"></i> Login</h3>
                 </a>
             </li>
         </ul>
     </div>
-    <div class="grid">
+    <div class="home-grid">
         <div class="Menu-Words">
             <h2>Menu</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac interdum nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque vel enim sed velit congue gravida vitae ut quam. Phasellus molestie ultrices massa
@@ -76,18 +67,20 @@
 
         </div>
         <div class="Picture-One">
-            <a href="URL" target="_blank"><img class="square" src="Photos/foodExample.jpg" alt="Picture of food bowl"></a>
+            <a href="URL" target="_blank"><img class="square" src="Photos/foodExample.jpg" alt="Food bowl"></a>
         </div>
         <div class="Picture-Two">
             <img class="square" src="Photos/Burger.jpg" alt="Burger">
         </div>
         <div class="Contact-Words">
+            <h2>Contact Information</h2>
             <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin risus est, laoreet ut tincidunt rhoncus, tincidunt eu libero. Ut ut pretium felis, in vestibulum ligula. Aliquam vel maximus elit. In blandit libero
                 eget nibh rutrum malesuada ut ut orci. Suspendisse a arcu non leo scelerisque accumsan sollicitudin sit amet quam. Morbi aliquam metus erat, non congue velit vulputate vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
                 posuere cubilia curae; In bibendum neque id sem viverra, vitae tristique tortor consequat. Duis felis tortor, facilisis sit amet nulla aliquet, mollis accumsan risus. Vestibulum pretium est a lacinia lobortis. Duis sit amet fringilla dui.
                 Aenean blandit et nisl vitae maximus. Etiam ut mollis leo, ut porttitor sem.</p>
         </div>
         <div class="About-Words">
+            <h2>About Us</h2>
             <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin risus est, laoreet ut tincidunt rhoncus, tincidunt eu libero. Ut ut pretium felis, in vestibulum ligula. Aliquam vel maximus elit. In blandit libero
                 eget nibh rutrum malesuada ut ut orci. Suspendisse a arcu non leo scelerisque accumsan sollicitudin sit amet quam. Morbi aliquam metus erat, non congue velit vulputate vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
                 posuere cubilia curae; In bibendum neque id sem viverra, vitae tristique tortor consequat. Duis felis tortor, facilisis sit amet nulla aliquet, mollis accumsan risus. Vestibulum pretium est a lacinia lobortis. Duis sit amet fringilla dui.
@@ -97,68 +90,23 @@
         <div class="Picture-Three">
             <img class="square" src="./Photos/foodExample.jpg" alt="test" />
         </div>
+    </div>
 
-
-        <div id="id01" class="modal">
-
-            <form class="modalContent" action="index.html" method="post">
-              <div class="loginContainer">
-                <span class="close" title="Close Modal"><a href = "index.html">&times;</a></span>
-              </div>
-        
-              <div class="loginContainer">
-                <label for="Menu-Words"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="Menu-Words" required></input>
-        
-                <label for="Menu-Words"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="Menu-Words" required></input>
-                  
-                <button type="Menu-Words">Login</button>
-              </div>
-        
-              <div class="loginContainer" style="background-color:beige">
-              <a href = "index.html">
-                <button type="button" class="cancelbtn">Cancel</button>                  
-              </a>
-                <span class="Menu-Words"><a href="index.html">Forgotten Password?</a></span>
-              </div>
-            </form>
+    <div class="footer-grid">
+        <div>
+            <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2211.318946652176!2d-2.7998149456908177!3d56.34158097859652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4886578561494509%3A0x51a20a4f2225ec97!2s146%20North%20St%2C%20St%20Andrews%20KY16%209AF!5e0!3m2!1sen!2suk!4v1617900495192!5m2!1sen!2suk"
+                width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="address">
+            <h2>
+                Address
+            </h2>
+            <h3>
+                146 North Street, </br> St Andrews, </br> KY16 9AF
+            </h3>
         </div>
 
-          
-        <div id="id02" class="modal">
-            
-            <form class="modalContent" action="index.html" method="post">
-                <div class="loginContainer">
-                    <span class="close" title="Close Modal"><a href = "index.html">&times;</a></span>
-                </div>
-
-                <div class="loginContainer">
-                    <label for="Menu-Words"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="uname" required></input>
-
-                    <label for="Menu-Words"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email Address" name="email" required></input>
-
-                    <label for="Menu-Words"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required></input>
-                    
-                    <label for="Menu-Words"><b>Confirm Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required></input>
-                    
-                    <label for="Menu-Words"><b>Voucher Code?</b></label>
-                    <input type="text" placeholder="Enter Code" name="code"></input>
-                    
-                    <button type="Menu-Words">Sign Up</button>
-                </div>
-
-                <div class="loginContainer" style=background-color:beige>
-                    <a href = index.html>
-                        <button type="button" class="cancelbtn">Cancel</button>
-                    </a>
-                </div>
-            </form>
-        </div>
+    </div>
 </body>
 
 </html>
