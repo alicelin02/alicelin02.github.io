@@ -113,16 +113,10 @@
     float: left;
     width: 39.99999%;
     object-fit: cover;
+    position: relative;
   }
   
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 700px)  {
     .responsive {
       width: 100%;
     }
@@ -144,3 +138,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+.center{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
