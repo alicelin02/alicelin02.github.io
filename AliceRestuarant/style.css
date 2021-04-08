@@ -171,5 +171,12 @@ div.eventsgallery img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 18px;
+  font-size: 30px;
+  opacity: 0.30;
+  
+}
+.center:hover {
+    opacity: 1;
+    color: black !important;
+    background-color: rgba(248, 248, 248, 0.329);
 }
