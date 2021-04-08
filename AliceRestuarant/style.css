@@ -56,8 +56,8 @@
 
 /* Grid and Grid areas */
 
-.grid {
-    column-gap: 5px;
+.home-grid {
+    column-gap: 2%;
     row-gap: 2%;
     /* top left-right bottom */
     padding: 10% 15% 10%;
@@ -97,6 +97,24 @@
     width: 60px;
 }
 
+.footer-grid {
+    background-color: var(--mBlue);
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.google-map {
+    grid-area: gMap;
+}
+
+.address {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    grid-area: address;
+}
+
 
 /* Phone Friendly Mods */
 
@@ -104,51 +122,62 @@
 /* If the resolution is >960 then the grid goes to single columns - phone friendly */
 
 @media (min-width: 960px) {
-    .grid {
+    .home-grid {
         column-gap: 2%;
         row-gap: 5%;
         padding: 10% 15% 10%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: "menuWords pic1" "pic2 contact" "about pic3"
+        grid-template-areas: "menuWords pic1" "pic2 contact" "about pic3";
+    }
+    .footer-grid {
+        background-color: var(--mBlue);
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas: " address gMap"
     }
 }
 
+
 /* stuff for the events gallery */
+
+
 /* HOW TO ALIGN center? */
+
 .responsive {
     padding: 0 6px;
     float: left;
     width: 39.99999%;
     object-fit: cover;
+    position: relative;
   }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 700px)  {
     .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
+        width: 100%;
     }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
-  
-  div.eventsgallery {
-      padding: 5%;
-  }
+}
 
-  div.eventsgallery img {
+div.eventsgallery {
+    padding: 5%;
+}
+
+div.eventsgallery img {
     width: 100%;
     height: auto;
-  }
+}
 
-  .eventsgrid {
+.eventsgrid {
     column-gap: 2%;
     row-gap: 5%;
     padding: 10% 15% 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+.center{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
