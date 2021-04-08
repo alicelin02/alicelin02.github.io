@@ -24,6 +24,7 @@
     --font-size-h1: 35px;
     --font-size-h2: 25px;
     --font-size-h3: 18px;
+    --font-size-h4: 16px;
     --font-size-p: 14px;
 }
 
@@ -32,6 +33,7 @@
         --font-size-h1: 80px;
         --font-size-h2: 35px;
         --font-size-h3: 20px;
+        --font-size-h4: 18px;
         --font-size-p: 16px;
     }
 }
@@ -127,6 +129,10 @@ h3 {
     font-size: var(--font-size-h3);
 }
 
+h4 {
+    font-size: var(--font-size-h4);
+}
+
 p {
     font-size: var(--font-size-p);
 }
@@ -152,16 +158,17 @@ a:active {
 
 /* Sign Up and Log In modal CSS */
 
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-  }
-  
-  button {
+}
+
+button {
     background-color: var(--mBlue);
     color: white;
     padding: 14px 20px;
@@ -169,63 +176,61 @@ input[type=text], input[type=password] {
     border: none;
     cursor: pointer;
     width: 100%;
-    font-weight:bold
-  }
-  
-  button:hover {
+    font-weight: bold
+}
+
+button:hover {
     opacity: 0.8;
-  }
-  
-  
-  .cancelbtn {
-    width:auto;
-    padding: 10px 18px; 
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
     margin-right: 24px;
-  }
-  
-  
-  .imgcontainer {
+}
+
+.imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
     position: relative;
-  }
-  
-  .loginContainer {
+}
+
+.loginContainer {
     padding: 16px;
-  }
-  
-  .modal {
-    display:none;
+}
+
+.modal {
+    display: none;
     position: fixed;
     z-index: 1;
     left: 0;
     top: 0;
-    width: 100%; 
+    width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0,0,0); 
+    background-color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.755);
     padding-top: 60px;
-  }
-  
-  .modalContent {
+}
+
+.modalContent {
     background-color: #fefefe;
     margin: 5px auto;
     border: 1px solid rgb(186, 186, 186);
     width: 80%;
-  }
-  
-  .close {
+}
+
+.close {
     position: absolute;
     right: 25px;
     top: 0;
     color: black;
     font-size: 35px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: red;
     cursor: pointer;
-  }
+}
