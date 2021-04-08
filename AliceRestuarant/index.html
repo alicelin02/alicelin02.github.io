@@ -49,8 +49,17 @@
                 </a>
             </li>
             <li class="nav-bar-li">
-                <a href="login.html">
-                    <h3><i class="fa fa-user-circle"></i> Login</h3>
+                <a onclick="document.getElementById('id01').style.display='block'">
+                    <h3>
+                        <i class = "fa fa-user-circle"> Login</i>
+                    </h3>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a onclick="document.getElementById('id02').style.display='block'">
+                    <h3>
+                        <i class = "fa fa-user-circle"> Sign Up</i>
+                    </h3>
                 </a>
             </li>
         </ul>
@@ -89,6 +98,67 @@
             <img class="square" src="./Photos/foodExample.jpg" alt="test" />
         </div>
 
+
+        <div id="id01" class="modal">
+
+            <form class="modalContent" action="index.html" method="post">
+              <div class="loginContainer">
+                <span class="close" title="Close Modal"><a href = "index.html">&times;</a></span>
+              </div>
+        
+              <div class="loginContainer">
+                <label for="Menu-Words"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="Menu-Words" required></input>
+        
+                <label for="Menu-Words"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="Menu-Words" required></input>
+                  
+                <button type="Menu-Words">Login</button>
+              </div>
+        
+              <div class="loginContainer" style="background-color:beige">
+              <a href = "index.html">
+                <button type="button" class="cancelbtn">Cancel</button>                  
+              </a>
+                <span class="Menu-Words"><a href="index.html">Forgotten Password?</a></span>
+              </div>
+            </form>
+        </div>
+
+          
+        <div id="id02" class="modal">
+            
+            <form class="modalContent" action="index.html" method="post">
+                <div class="loginContainer">
+                    <span class="close" title="Close Modal"><a href = "index.html">&times;</a></span>
+                </div>
+
+                <div class="loginContainer">
+                    <label for="Menu-Words"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required></input>
+
+                    <label for="Menu-Words"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email Address" name="email" required></input>
+
+                    <label for="Menu-Words"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required></input>
+                    
+                    <label for="Menu-Words"><b>Confirm Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required></input>
+                    
+                    <label for="Menu-Words"><b>Voucher Code?</b></label>
+                    <input type="text" placeholder="Enter Code" name="code"></input>
+                    
+                    <button type="Menu-Words">Sign Up</button>
+                </div>
+
+                <div class="loginContainer" style=background-color:beige>
+                    <a href = index.html>
+                        <button type="button" class="cancelbtn">Cancel</button>
+                    </a>
+                </div>
+            </form>
+        </div>
 </body>
 
 </html>
