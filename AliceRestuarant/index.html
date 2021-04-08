@@ -17,10 +17,13 @@
 <body>
 
     <img class="bg" src="Photos/WestSandsDim169.jpg" alt="West Sands">
+
     <div class="header">
         <h1 class="centered">Michelle's</h1>
     </div>
+
     <div id="index-nav"></div>
+
     <div class="sticky-nav">
         <ul class="nav-bar">
             <li class="nav-bar-li">
@@ -64,6 +67,8 @@
             </li>
         </ul>
     </div>
+
+
     <div class="grid">
         <div class="Menu-Words">
             <h2>Menu</h2>
@@ -97,68 +102,101 @@
         <div class="Picture-Three">
             <img class="square" src="./Photos/foodExample.jpg" alt="test" />
         </div>
+    </div>
+
+    <div class ="footer">
+        <ul class="nav-bar">
+            <li class="nav-bar-li">
+                <a href="cookies.html">
+                    <h3>Cookies</h3>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a href="T&C.html">
+                    <h3>Terms and Conditions</h3>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a href="accessability.html">
+                    <h3>Accessability</h3>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a href = "instagram.com">
+                    <img class = "instasocial" src = "./Photos/Instagram.png"></img>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a href = "facebook.com">
+                    <img class = "facesocial" src= "./Photos/Facebook.png"></img>
+                </a>
+            </li>
+        </ul>
+    </div>
 
 
-        <div id="id01" class="modal">
+    <div id="id01" class="modal">
 
-            <form class="modalContent" action="index.html" method="post">
-              <div class="loginContainer">
+        <form class="modalContent" action="index.html" method="post">
+            <div class="loginContainer">
+            <span class="close" title="Close Modal"><a href = "index.html">&times;</a></span>
+            </div>
+    
+            <div class="loginContainer">
+            <label for="Menu-Words"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="Menu-Words" required></input>
+    
+            <label for="Menu-Words"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="Menu-Words" required></input>
+                
+            <button type="Menu-Words">Login</button>
+            </div>
+    
+            <div class="loginContainer" style="background-color:beige">
+            <a href = "index.html">
+            <button type="button" class="cancelbtn">Cancel</button>                  
+            </a>
+            <span class="Menu-Words"><a href="index.html">Forgotten Password?</a></span>
+            </div>
+        </form>
+    </div>
+
+        
+    <div id="id02" class="modal">
+        
+        <form class="modalContent" action="index.html" method="post">
+            <div class="loginContainer">
                 <span class="close" title="Close Modal"><a href = "index.html">&times;</a></span>
-              </div>
-        
-              <div class="loginContainer">
+            </div>
+
+            <div class="loginContainer">
                 <label for="Menu-Words"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="Menu-Words" required></input>
-        
+                <input type="text" placeholder="Enter Username" name="uname" required></input>
+
+                <label for="Menu-Words"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email Address" name="email" required></input>
+
                 <label for="Menu-Words"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="Menu-Words" required></input>
-                  
-                <button type="Menu-Words">Login</button>
-              </div>
-        
-              <div class="loginContainer" style="background-color:beige">
-              <a href = "index.html">
-                <button type="button" class="cancelbtn">Cancel</button>                  
-              </a>
-                <span class="Menu-Words"><a href="index.html">Forgotten Password?</a></span>
-              </div>
-            </form>
-        </div>
+                <input type="password" placeholder="Enter Password" name="psw" required></input>
+                
+                <label for="Menu-Words"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required></input>
+                
+                <label for="Menu-Words"><b>Voucher Code?</b></label>
+                <input type="text" placeholder="Enter Code" name="code"></input>
+                
+                <button type="Menu-Words">Sign Up</button>
+            </div>
 
-          
-        <div id="id02" class="modal">
-            
-            <form class="modalContent" action="index.html" method="post">
-                <div class="loginContainer">
-                    <span class="close" title="Close Modal"><a href = "index.html">&times;</a></span>
-                </div>
+            <div class="loginContainer" style=background-color:beige>
+                <a href = index.html>
+                    <button type="button" class="cancelbtn">Cancel</button>
+                </a>
+            </div>
+        </form>
+    </div>
 
-                <div class="loginContainer">
-                    <label for="Menu-Words"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="uname" required></input>
 
-                    <label for="Menu-Words"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email Address" name="email" required></input>
-
-                    <label for="Menu-Words"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required></input>
-                    
-                    <label for="Menu-Words"><b>Confirm Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required></input>
-                    
-                    <label for="Menu-Words"><b>Voucher Code?</b></label>
-                    <input type="text" placeholder="Enter Code" name="code"></input>
-                    
-                    <button type="Menu-Words">Sign Up</button>
-                </div>
-
-                <div class="loginContainer" style=background-color:beige>
-                    <a href = index.html>
-                        <button type="button" class="cancelbtn">Cancel</button>
-                    </a>
-                </div>
-            </form>
-        </div>
 </body>
 
 </html>

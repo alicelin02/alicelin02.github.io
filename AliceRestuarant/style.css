@@ -89,6 +89,14 @@
     grid-area: about;
 }
 
+.instasocial{
+    width: 80px;
+}
+
+.facesocial{
+    width: 60px;
+}
+
 
 /* Phone Friendly Mods */
 

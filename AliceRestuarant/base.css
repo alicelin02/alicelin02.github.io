@@ -110,7 +110,11 @@ div.sticky-nav {
 
 
 /* Insert Footer styles here */
-
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 
 /* Typography */
 
