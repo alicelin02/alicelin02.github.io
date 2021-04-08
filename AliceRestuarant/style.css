@@ -89,11 +89,11 @@
     grid-area: about;
 }
 
-.instasocial{
+.instasocial {
     width: 80px;
 }
 
-.facesocial{
+.facesocial {
     width: 60px;
 }
 
@@ -101,7 +101,8 @@
     background-color: var(--mBlue);
     display: grid;
     margin-top: 5%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-area: "gMap";
 }
 
 .google-map {
@@ -133,8 +134,8 @@
     .footer-grid {
         background-color: var(--mBlue);
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-areas: " address gMap"
+        grid-template-columns: 1fr;
+        grid-template-areas: "gMap"
     }
 }
 
@@ -150,9 +151,9 @@
     width: 39.99999%;
     object-fit: cover;
     position: relative;
-  }
-  
-  @media only screen and (max-width: 700px)  {
+}
+
+@media only screen and (max-width: 700px) {
     .responsive {
         width: 100%;
     }
@@ -173,11 +174,12 @@ div.eventsgallery img {
     padding: 10% 15% 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-.center{
+}
+
+.center {
     position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
 }
