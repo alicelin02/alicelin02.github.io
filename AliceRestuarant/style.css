@@ -47,7 +47,6 @@
 
 .centered {
     position: absolute;
-    text-align: center;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -60,12 +59,15 @@
     transform: translate(-50%, -50%);
 }
 
+
 /* Top alignment */
-.about-top{
+
+.about-top {
     justify-content: center;
     align-items: center;
     display: flex;
 }
+
 
 /* Square photos */
 
@@ -206,12 +208,12 @@ div.eventsgallery img {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
-    visibility:hidden;
+    visibility: hidden;
     opacity: 0;
-    transition:opacity .2s, visibility .2s;
+    transition: opacity .2s, visibility .2s;
 }
 
-.eventsgallery:hover .center{
+.eventsgallery:hover .center {
     opacity: 1;
     visibility: visible;
     color: black;
@@ -234,7 +236,7 @@ hr {
 
 .person {
     overflow: hidden;
-    margin-bottom:80px;
+    margin-bottom: 80px;
 }
 
 .person-content {
@@ -250,13 +252,12 @@ hr {
         display: block;
         margin-bottom: 20px;
     }
-
     .person-content {
-        width:100% !important;
+        width: 100% !important;
     }
 }
 
-.about-grid{
+.about-grid {
     column-gap: 2%;
     row-gap: 2%;
     padding: 5% 15% 10%;
