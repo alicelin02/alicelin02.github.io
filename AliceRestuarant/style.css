@@ -8,9 +8,20 @@
  */
 
 
-/* Background image  */
+/* Background images  */
 
 .bg {
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.long {
     display: block;
     position: relative;
     width: 100%;
@@ -42,6 +53,19 @@
     transform: translate(-50%, -50%);
 }
 
+.long-centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Top alignment */
+.about-top{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
 /* Square photos */
 
@@ -49,7 +73,7 @@
     width: 100%;
 }
 
-.square:hover {
+.eventsquare:hover {
     opacity: 0.5;
 }
 
@@ -178,15 +202,63 @@ div.eventsgallery img {
 
 .center {
     position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 30px;
-  opacity: 0.30;
-  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    visibility:hidden;
+    opacity: 0;
+    transition:opacity .2s, visibility .2s;
 }
-.center:hover {
+
+.eventsgallery:hover .center{
     opacity: 1;
-    color: black !important;
-    background-color: rgba(248, 248, 248, 0.329);
+    visibility: visible;
+    color: black;
+}
+
+
+/* About Us */
+
+hr {
+    color: #ddd;
+    background-color: #ddd;
+    height: 3px;
+    border: 0;
+}
+
+.people img.alignleft {
+    float: left;
+    margin: 0 24px 24px 0;
+}
+
+.person {
+    overflow: hidden;
+    margin-bottom:80px;
+}
+
+.person-content {
+    display: inline-block !important;
+    width: 45% !important;
+    vertical-align: top !important;
+    margin: 0 1% !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .people img.alignleft {
+        float: none;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .person-content {
+        width:100% !important;
+    }
+}
+
+.about-grid{
+    column-gap: 2%;
+    row-gap: 2%;
+    padding: 5% 15% 10%;
+    display: grid;
 }

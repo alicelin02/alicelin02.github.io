@@ -76,6 +76,13 @@ div.sticky-nav {
     top: 0;
 }
 
+.sticky-nav-other {
+    /* display: block; */
+    position: sticky;
+    width:100%;
+    top: 0;
+}
+
 .nav-bar {
     list-style-type: none;
     height: auto;
@@ -175,16 +182,22 @@ input[type=password] {
 button {
     background-color: var(--mBlue);
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    padding: 3px 16px;
+    width: max-content;
     font-weight: bold
 }
 
 button:hover {
-    opacity: 0.8;
+    background-color: var(--lBlue);
+    color: var(--mBlue);
+}
+
+.enterbtn{
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
 }
 
 .cancelbtn {
@@ -231,10 +244,4 @@ button:hover {
     color: black;
     font-size: 35px;
     font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: red;
-    cursor: pointer;
 }
