@@ -168,9 +168,9 @@
 /* HOW TO ALIGN center? */
 
 .responsive {
-    padding: 0 6px;
+    /* padding: 0 6px; */
+    /* width: 39.99999%; */    
     float: left;
-    width: 39.99999%;
     object-fit: cover;
     position: relative;
 }
@@ -178,6 +178,14 @@
 @media only screen and (max-width: 700px) {
     .responsive {
         width: 100%;
+    }
+    
+    div.eventsgrid {
+        column-gap: 2%;
+        row-gap: 5%;
+        padding: 10% 15% 10%;
+        display: grid;
+        grid-template-columns: none;
     }
 }
 
@@ -251,7 +259,7 @@ hr {
     margin: 0 1% !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .people img.alignleft {
         float: none;
         display: block;
