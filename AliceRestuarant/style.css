@@ -219,6 +219,15 @@ div.eventsgallery img {
     color: black;
 }
 
+.forimg {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fortext{
+    padding: 10%;
+}
+
 
 /* About Us */
 
