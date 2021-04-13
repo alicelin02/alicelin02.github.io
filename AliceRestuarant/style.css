@@ -220,7 +220,7 @@ div.eventsgallery img {
     margin-right: 10%;
 }
 
-.fortext{
+.fortext {
     padding: 10%;
 }
 
@@ -267,4 +267,17 @@ hr {
     row-gap: 2%;
     padding: 5% 15% 10%;
     display: grid;
+}
+
+
+/* Bookings Page */
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
 }

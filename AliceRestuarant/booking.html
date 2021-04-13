@@ -64,9 +64,33 @@
 
     <div class="about-grid">
         <h2>Please fill out the following form</h2>
+        <label for="booking-time">Choose a time for your booking:</label>
+        <input type="datetime-local" id="booking-time" name="booking-time" max="2021-05-17T18:00">
+
+        <label for="guest-num">Number of guests:</label>
+        <select id="guest-num" name="guest-list" form="guestform">
+            <option value = 1 >1</option>
+            <option value = 2 >2</option>
+            <option value = 3 >3</option>
+            <option value = 4 >4</option>
+            <option value = 5 >5</option>
+            <option value = 6 >6</option>
+        </select>
+
+        <label for="dietry-req">Dietary Requirements:</label>
+        <textarea id="dietary-req" name="dietary-req" rows="2" placeholder="Leave blank if none"></textarea>
+
+        <label for="extra-notes">Notes</label>
+        <textarea id="extra-notes" name="extra-notes" rows="2" placeholder="Notes for the cafe"></textarea>
+
+        <label for="customer-name">Name:</label>
+        <textarea id="customer-name" name="customer-name" rows="2" placeholder="Please enter your name"></textarea>
+
+        <label for="telephone">Contact Telephone Number:</label>
+        <textarea id="telephone" name="telephone" rows="2" placeholder="Please enter your contact number"></textarea>
+
     </div>
-
-
+    </br>
 
 
 
