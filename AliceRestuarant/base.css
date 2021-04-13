@@ -101,6 +101,17 @@ div.sticky-nav {
 
 .nav-bar-li a {
     display: block;
+
+    /* BUTTONS CONDENSE WEIRDLY BECAUSE OF PADDING */
+    padding:2px 16px;
+    width: max-content;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-bar-li button {
+    display: block;
     padding: 2px 16px;
     width: max-content;
     color: white;
