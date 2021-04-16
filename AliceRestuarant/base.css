@@ -73,6 +73,7 @@ div.sticky-nav {
     /* display: block; */
     position: -webkit-sticky;
     position: sticky;
+    z-index: 1;
     top: 0;
 }
 
@@ -103,7 +104,6 @@ div.sticky-nav {
     display: block;
     /* BUTTONS CONDENSE WEIRDLY BECAUSE OF PADDING */
     padding: 2px 16px;
-    
     width: max-content;
     color: white;
     text-align: center;
