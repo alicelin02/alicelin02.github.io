@@ -56,38 +56,44 @@
     </div>
 
 
-    <div class="about-grid">
-        <h2>Please fill out the following form</h2>
-        <form>
-            <label for="booking-time">Choose a time for your booking:</label>
-            <input type="datetime-local" id="booking-time" name="booking-time" max="2021-05-17T18:00" required>
-
-            <label for="guest-num">Number of guests:</label>
-            <select id="guest-num" name="guest-list" form="guestform" required>
-                <option value = 1 >1</option>
-                <option value = 2 >2</option>
-                <option value = 3 >3</option>
-                <option value = 4 >4</option>
-                <option value = 5 >5</option>
-                <option value = 6 >6</option>
-            </select>
-
-            <label for="dietry-req">Dietary Requirements:</label>
-            <textarea id="dietary-req" name="dietary-req" rows="2" placeholder="Leave blank if none"></textarea>
-
-            <label for="extra-notes">Notes</label>
-            <textarea id="extra-notes" name="extra-notes" rows="2" placeholder="Notes for the cafe"></textarea>
-
-            <label for="customer-name">Name:</label>
-            <textarea id="customer-name" name="customer-name" rows="1" required></textarea>
-
-            <label for="telephone">Telephone Number:</label>
-            <textarea id="telephone" name="telephone" rows="1" required></textarea>
-
-            </br>
-            <input type="submit" value="Submit" onclick="return submittedForm()">
-
-        </form>
+    <div class="cookie-grid">
+        <h2>Terms and Conditions</h2>
+        <p>
+            Welcome to our website. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern Mitchelle's relationship with you in relation to this website.
+            If you disagree with any part of these terms and conditions, please do not use our website.
+        </p>
+        <hr />
+        <p>
+            The use of this website is subject to the following terms of use:
+        </p>
+        <p>
+            - The content of the pages of this website is for your general information and use only. It is subject to change without notice.
+        </p>
+        <p>
+            - This website uses cookies to monitor browsing preferences. If you do allow cookies to be used, the following personal information may be stored by us for use by third parties.
+        </p>
+        <p>
+            - Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this website for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.
+        </p>
+        <p>    
+            - Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.
+        </p>
+        <p>
+            - This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.
+        </p>
+        <p>
+            - All trade marks reproduced in this website which are not the property of, or licensed to, the operator are acknowledged on the website.
+        </p>
+        <p>
+            - Unauthorised use of this website may give rise to a claim for damages and/or be a criminal offence.
+        </p>
+        <p>
+            - From time to time this website may also include links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s).
+        </p>
+        <p>
+            - Your use of this website and any dispute arising out of such use of the website is subject to the laws of England, Northern Ireland, Scotland and Wales.
+        </p>
+        <hr />
     </div>
     </br>
 
@@ -137,9 +143,9 @@
 
     <div id="id01" class="modal">
 
-        <form class="modalContent" action="booking.html" method="post">
+        <form class="modalContent" action="T&C.html" method="post">
             <div class="loginContainer">
-                <span class="close" title="Close Modal"><a href ="booking.html">X</a></span>
+                <span class="close" title="Close Modal"><a href ="T&C.html">X</a></span>
             </div>
 
             <div class="loginContainer">
@@ -156,7 +162,7 @@
                 <a href="covidInfo.html">
                     <button type="button" class="cancelbtn">Cancel</button>
                 </a>
-                <span class="Menu-Words"><a href="booking.html">Forgotten Password?</a></span>
+                <span class="Menu-Words"><a href="T&C.html">Forgotten Password?</a></span>
                 <span class="Menu-Words"><a onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign up for an account</a></span>
             </div>
         </form>
@@ -165,9 +171,9 @@
 
     <div id="id02" class="modal">
 
-        <form class="modalContent" action="booking.html" method="post">
+        <form class="modalContent" action="T&C.html" method="post">
             <div class="loginContainer">
-                <span class="close" title="Close Modal"><a href ="booking.html">X</a></span>
+                <span class="close" title="Close Modal"><a href ="T&C.html">X</a></span>
             </div>
 
             <div class="loginContainer">
@@ -190,7 +196,7 @@
             </div>
 
             <div class="loginContainer" style=background-color:beige>
-                <a href = booking.html>
+                <a href=T&C.html>
                     <button type="button" class="cancelbtn">Cancel</button>
                 </a>
             </div>

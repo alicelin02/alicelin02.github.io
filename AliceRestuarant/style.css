@@ -291,3 +291,10 @@ input,
 label {
     margin: .4rem 0;
 }
+
+
+/* Cookie Page */
+.cookie-grid {
+    padding: 5% 15% 10%;
+    display: grid;
+}
