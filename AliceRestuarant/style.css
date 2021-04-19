@@ -231,7 +231,8 @@ div.eventsgallery img {
 
 .fortext {
     padding: 10%;
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: center;
 }
 
 
