@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Celebrations</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="base.css"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+    <div class="photo-top">
+        <img class="long" src="Photos/Schwartzwald3.jpg" alt="Lattes and equipment" height=325px>
+            <h1>Celebrations</h1>
+        </img>
+    </div>
+
+    <div class="sticky-nav">
+        <ul class="nav-bar">
+            <li class="nav-bar-li">
+                <a href="index.html#index-nav">
+                    <h3>Home</h3>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a class="active" href="events.html">
+                    <h3>Events</h3>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a href="covidInfo.html">
+                    <h3>Covid-19 Information</h3>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a href="booking.html">
+                    <h3>Bookings</h3>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a href="about.html">
+                    <h3>About</h3>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+                    <h3><i class="fa fa-user-circle"></i> Sign In</h3>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <p class="fortext">
+            For all the important events in life now you have the chance to book multiple tables at once! Wether you're looking for a place to have a laid-back birthday celebration, organising a family reunion, or need a place for a committee meeting, we've got you covered!
+        </p>
+    </div>
+    <div class="forimg">
+        <img class="long" src="Photos/Cakes1.jpg" alt="An assortment of cakes">
+    </div>
+
+    <div>
+        <p class="fortext">
+            We make custom cakes, so every birthday can be perfect. We also take scone and pastry orders if you have a specific treat in mind.
+        </p>
+    </div>
+    <div class="forimg">
+        <img class="long" src="Photos/Birthday2.jpg" alt="Birthday muffins">
+    </div>
+
+    <div>
+        <p class="fortext"> We can offer some separation from the general public, so you won't be disturbed by the outside world!</p>
+    </div>
+    <div class="forimg">
+        <img class="long" src="Photos/Empty cups.jpg" alt="Group in the middle of their coffees">
+    </div>
+
+    <div>
+        <p class="fortext">For further enquiries and booking, please call us at 09876543211 or drop by the cafe.</p>
+    </div>
+
+
+
+    </div>
+    <div class="footer">
+        <ul class="nav-bar">
+            <li class="nav-bar-li">
+                <a href="cookies.html">
+                    <h3>Cookies</h3>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a href="T&C.html">
+                    <h3>Terms and Conditions</h3>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a href="accessability.html">
+                    <h3>Accessability</h3>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a href="https://instagram.com">
+                    <img class="social" src="./Photos/insta.png"></img>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <a href="https://facebook.com">
+                    <img class="social" src="./Photos/face.png"></img>
+                </a>
+            </li>
+            <li class="nav-bar-li">
+                <h3 style="color:white"> Address: 146 North Street, St Andrews, KY16 9AF</h3>
+            </li>
+        </ul>
+    </div>
+
+
+    <div id="id01" class="modal">
+
+        <form class="modalContent" action="index.html" method="post">
+            <div class="loginContainer">
+                <span class="close" title="Close Modal"><a href ="index.html">X</a></span>
+            </div>
+
+            <div class="loginContainer">
+                <label for="Menu-Words"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="Menu-Words" required></input>
+
+                <label for="Menu-Words"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="Menu-Words" required></input>
+
+                <button type="Menu-Words" class="enterbtn">Login</button>
+            </div>
+
+            <div class="loginContainer" style="background-color:beige">
+                <a href="index.html">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                </a>
+                <span class="Menu-Words"><a href="index.html">Forgotten Password?</a></span>
+                <span class="Menu-Words"><a onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign up for an account</a></span>
+            </div>
+        </form>
+    </div>
+
+
+    <div id="id02" class="modal">
+
+        <form class="modalContent" action="index.html" method="post">
+            <div class="loginContainer">
+                <span class="close" title="Close Modal"><a href ="index.html">X</a></span>
+            </div>
+
+            <div class="loginContainer">
+                <label for="Menu-Words"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required></input>
+
+                <label for="Menu-Words"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email Address" name="email" required></input>
+
+                <label for="Menu-Words"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required></input>
+
+                <label for="Menu-Words"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required></input>
+
+                <label for="Menu-Words"><b>Voucher Code?</b></label>
+                <input type="text" placeholder="Enter Code" name="code"></input>
+
+                <button type="Menu-Words" class="enterbtn">Sign Up</button>
+            </div>
+
+            <div class="loginContainer" style=background-color:beige>
+                <a href=index.html>
+                    <button type="button" class="cancelbtn">Cancel</button>
+                </a>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
