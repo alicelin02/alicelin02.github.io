@@ -30,14 +30,14 @@
             </li>
             <li class="subnav">
                 <a class="active" href="events.html">
-                    <h3>Events</h3><i class="fa fa-caret-down">
+                    <h3>Events <i class="fa fa-caret-down"></i></h3>
                 </a>
-                <div class="subnav-content">
-                    <a href="bookclub.html">Book Club</a>
-                    <a href="workshops.html">workshops</a>
-                    <a href="birthdays.html">Celebrations</a>
-                    <a href="classes.html">Classes</a>
-                  </div>
+                <ul>
+                    <li class="nav-bar-li"> <a href="bookclub.html">Book Club</a> </li>
+                    <li class="nav-bar-li"> <a href="workshops.html">workshops</a></li>
+                    <li class="nav-bar-li"> <a href="birthdays.html">Celebrations</a></li>
+                    <li class="nav-bar-li"> <a href="classes.html">Classes</a></li>
+                </ul>
             </li>
             <li class="nav-bar-li">
                 <a href="covidInfo.html">
@@ -57,7 +57,7 @@
             <li class="nav-bar-li">
                 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
                     <h3><i class="fa fa-user-circle"></i> Sign In</h3>
-                </button>
+                    </button>
             </li>
         </ul>
     </div>
@@ -107,7 +107,7 @@
     </br>
     </br>
 
-   
+
 
     <div class="footer-grid">
         <div>
@@ -151,67 +151,67 @@
     </div>
 
 
-<div id="id01" class="modal">
+    <div id="id01" class="modal">
 
-    <form class="modalContent" action="index.html" method="post">
-        <div class="loginContainer">
-            <span class="close" title="Close Modal"><a href ="index.html">X</a></span>
-        </div>
+        <form class="modalContent" action="index.html" method="post">
+            <div class="loginContainer">
+                <span class="close" title="Close Modal"><a href ="index.html">X</a></span>
+            </div>
 
-        <div class="loginContainer">
-            <label for="Menu-Words"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="Menu-Words" required></input>
+            <div class="loginContainer">
+                <label for="Menu-Words"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="Menu-Words" required></input>
 
-            <label for="Menu-Words"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="Menu-Words" required></input>
+                <label for="Menu-Words"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="Menu-Words" required></input>
 
-            <button type="Menu-Words" class="enterbtn">Login</button>
-        </div>
+                <button type="Menu-Words" class="enterbtn">Login</button>
+            </div>
 
-        <div class="loginContainer" style="background-color:beige">
-            <a href="index.html">
-                <button type="button" class="cancelbtn">Cancel</button>
-            </a>
-            <span class="Menu-Words"><a href="index.html">Forgotten Password?</a></span>
-            <span class="Menu-Words"><a onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign up for an account</a></span>
-        </div>
-    </form>
-</div>
+            <div class="loginContainer" style="background-color:beige">
+                <a href="index.html">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                </a>
+                <span class="Menu-Words"><a href="index.html">Forgotten Password?</a></span>
+                <span class="Menu-Words"><a onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign up for an account</a></span>
+            </div>
+        </form>
+    </div>
 
 
-<div id="id02" class="modal">
+    <div id="id02" class="modal">
 
-    <form class="modalContent" action="index.html" method="post">
-        <div class="loginContainer">
-            <span class="close" title="Close Modal"><a href ="index.html">X</a></span>
-        </div>
+        <form class="modalContent" action="index.html" method="post">
+            <div class="loginContainer">
+                <span class="close" title="Close Modal"><a href ="index.html">X</a></span>
+            </div>
 
-        <div class="loginContainer">
-            <label for="Menu-Words"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required></input>
+            <div class="loginContainer">
+                <label for="Menu-Words"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required></input>
 
-            <label for="Menu-Words"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email Address" name="email" required></input>
+                <label for="Menu-Words"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email Address" name="email" required></input>
 
-            <label for="Menu-Words"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required></input>
+                <label for="Menu-Words"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required></input>
 
-            <label for="Menu-Words"><b>Confirm Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required></input>
+                <label for="Menu-Words"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required></input>
 
-            <label for="Menu-Words"><b>Voucher Code?</b></label>
-            <input type="text" placeholder="Enter Code" name="code"></input>
+                <label for="Menu-Words"><b>Voucher Code?</b></label>
+                <input type="text" placeholder="Enter Code" name="code"></input>
 
-            <button type="Menu-Words" class="enterbtn" onclick="return alert('Your account has been created! \nYou are already logged in')">Sign Up</button>
-        </div>
+                <button type="Menu-Words" class="enterbtn" onclick="return alert('Your account has been created! \nYou are already logged in')">Sign Up</button>
+            </div>
 
-        <div class="loginContainer" style=background-color:beige>
-            <a href=index.html>
-                <button type="button" class="cancelbtn">Cancel</button>
-            </a>
-        </div>
-    </form>
-</div>
+            <div class="loginContainer" style=background-color:beige>
+                <a href=index.html>
+                    <button type="button" class="cancelbtn">Cancel</button>
+                </a>
+            </div>
+        </form>
+    </div>
 
 </body>
 

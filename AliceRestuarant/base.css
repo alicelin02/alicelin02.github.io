@@ -128,37 +128,67 @@ div.sticky-nav {
     background-color: var(--dBlue);
 }
 
-.subnav {
+.subnav a {
     float: left;
-    overflow: hidden;
-    background-color: var(--mBlue);
-    padding: 2px 16px;
+    display: block;
+    padding: 3px 16px;
+    width: max-content;
     color: white;
-  }
+    text-align: center;
+    text-decoration: none;
+}
 
-.subnav-content {
+.subnav a:hover:not(.active) {
+    background-color: var(--lBlue);
+    color: var(--mBlue);
+}
+
+.nav-bar .subnav ul {
+    display: none;
+}
+
+.nav-bar .subnav ul li {
+    border-top: 1px solid var(--mBlue);
+}
+
+.nav-bar .subnav ul li a {
+    line-height: 25px;
+    text-align: center;
+    border-top: var(--lBlue);
+}
+
+.nav-bar .subnav:hover ul {
+    display: block;
+}
+
+.subnav-bar-li {
+    text-align: center;
+}
+
+
+/* .subnav-content {
     display: none;
     position: absolute;
     left: 0;
     background-color: var(--dBlue);
     width: 100%;
     z-index: 1;
-  }
-  
-  .subnav-content a {
+}
+
+.subnav-content a {
     float: left;
     color: white;
     text-decoration: none;
-  }
+}
 
-  .subnav-content a:hover {
+.subnav-content a:hover {
     background-color: #eee;
     color: black;
-  }
+}
 
-  .subnav:hover .subnav-content {
+.subnav:hover .subnav-content {
     display: block;
-  }
+} */
 
 
 /* Insert Footer styles here */
