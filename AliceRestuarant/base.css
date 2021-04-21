@@ -128,6 +128,38 @@ div.sticky-nav {
     background-color: var(--dBlue);
 }
 
+.subnav {
+    float: left;
+    overflow: hidden;
+    background-color: var(--mBlue);
+    padding: 2px 16px;
+    color: white;
+  }
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: var(--dBlue);
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
 
 /* Insert Footer styles here */
 
