@@ -70,12 +70,11 @@ body::-webkit-scrollbar {
 div.sticky-nav {
     position: -webkit-sticky;
     position: sticky;
-    z-index: 2;
     top: 0;
 }
 
 .sticky-nav-other {
-    /* display: block; */
+    display: block;
     position: sticky;
     width: 100%;
     top: 0;
@@ -86,7 +85,7 @@ div.sticky-nav {
     height: auto;
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     background-color: var(--mBlue);
     top: 0;
     position: sticky;
@@ -95,7 +94,7 @@ div.sticky-nav {
 
 .nav-bar-li {
     float: left;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     list-style-type: none;
 }
 
@@ -125,6 +124,7 @@ div.sticky-nav {
 .active {
     background-color: var(--dBlue);
 }
+
 /* 
 .subnav a {
     float: left;
@@ -302,7 +302,7 @@ button:hover {
 
 
 
-
+/* 
 .dropbtn {
     background-color: #04AA6D;
     color: white;
@@ -336,4 +336,4 @@ button:hover {
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color:#3e8e41; }
+  .dropdown:hover .dropbtn {background-color:#3e8e41; } */
