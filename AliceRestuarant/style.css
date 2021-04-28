@@ -187,6 +187,7 @@
         padding: 10% 15% 10%;
         display: grid;
         grid-template-columns: none;
+        z-index: -1;
     }
 }
 

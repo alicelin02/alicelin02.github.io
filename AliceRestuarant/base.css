@@ -73,7 +73,7 @@ div.sticky-nav {
     /* display: block; */
     position: -webkit-sticky;
     position: sticky;
-    z-index: 1;
+    z-index: 2;
     top: 0;
 }
 
@@ -159,11 +159,17 @@ div.sticky-nav {
 
 .nav-bar .subnav:hover ul {
     display: block;
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    background-color: var(--mBlue);
 }
 
 .subnav-bar-li {
     text-align: center;
 }
+
+
 
 
 /* .subnav-content {
