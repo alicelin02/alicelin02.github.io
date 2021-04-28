@@ -27,18 +27,29 @@
                 <a href="index.html#index-nav">
                     <h3>Home</h3>
                 </a>
-                <li class="subnav">
-                    <a class="active" href="events.html">
-                        <h3>Events <i class="fa fa-caret-down"></i></h3>
+            </li>
+                <div class="dropdown">
+                    <a href="events.html">
+                        <!-- <h3>Events</h3> -->
+                        <button>
+                            <h3>Events <i class="fa fa-caret-down"></i></h3>
+                        </button>
+
                     </a>
-                    <ul>
+                    <div class="dropdown-content">
+                        <a href="bookclub.html">Book Club</a>
+                        <a href="workshops.html">Workshops</a>
+                        <a href="birthdays.html">Celebrations</a>
+                        <a href="classes.html">Classes</a>
+                      </div>
+                    <!-- <ul>
                         <li class="nav-bar-li"> <a href="bookclub.html">Book Club</a> </li>
                         <li class="nav-bar-li"> <a href="workshops.html">Workshops</a></li>
                         <li class="nav-bar-li"> <a href="birthdays.html">Celebrations</a></li>
                         <li class="nav-bar-li"> <a href="classes.html">Classes</a></li>
-                    </ul>
-                </li>
-            </li>
+                    </ul> -->
+                </div>
+            <!-- </li> -->
             <li class="nav-bar-li">
                 <a href="covidInfo.html">
                     <h3>Covid-19 Information</h3>
@@ -155,7 +166,7 @@
 
         <form class="modalContent" action="index.html" method="post">
             <div class="loginContainer">
-                <span class="close" title="Close Modal"><a href ="index.html">X</a></span>
+                <span class="close" title="Close Modal"><a href ="events.html">X</a></span>
             </div>
 
             <div class="loginContainer">
@@ -172,7 +183,7 @@
                 <a href="index.html">
                     <button type="button" class="cancelbtn">Cancel</button>
                 </a>
-                <span class="Menu-Words"><a href="index.html">Forgotten Password?</a></span>
+                <span class="Menu-Words"><a href="events.html">Forgotten Password?</a></span>
                 <span class="Menu-Words"><a onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign up for an account</a></span>
             </div>
         </form>
@@ -181,7 +192,7 @@
 
     <div id="id02" class="modal">
 
-        <form class="modalContent" action="index.html" method="post">
+        <form class="modalContent" action="events.html" method="post">
             <div class="loginContainer">
                 <span class="close" title="Close Modal"><a href ="index.html">X</a></span>
             </div>
@@ -206,7 +217,7 @@
             </div>
 
             <div class="loginContainer" style=background-color:beige>
-                <a href=index.html>
+                <a href=events.html>
                     <button type="button" class="cancelbtn">Cancel</button>
                 </a>
             </div>
