@@ -165,12 +165,7 @@
 
 /* stuff for the events gallery */
 
-
-/* HOW TO ALIGN center? */
-
-.responsive {
-    /* padding: 0 6px; */
-    /* width: 39.99999%; */    
+.responsive {  
     float: left;
     object-fit: cover;
     position: relative;
@@ -232,7 +227,6 @@ div.eventsgallery img {
 
 .fortext {
     padding: 10%;
-    /* text-align: justify; */
     text-align: center;
 }
 
