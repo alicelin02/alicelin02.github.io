@@ -114,6 +114,7 @@ div.sticky-nav {
     color: white;
     text-align: center;
     text-decoration: none;
+    font: inherit;
 }
 
 .nav-bar-li a:hover:not(.active) {
