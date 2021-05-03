@@ -64,7 +64,6 @@ body::-webkit-scrollbar {
 }
 
 
-
 /* Navigation bar */
 
 div.sticky-nav {
@@ -90,6 +89,7 @@ div.sticky-nav {
     top: 0;
     position: sticky;
     position: -webkit-sticky;
+    z-index: 1;
 }
 
 .nav-bar-li {
@@ -124,6 +124,7 @@ div.sticky-nav {
 .active {
     background-color: var(--dBlue);
 }
+
 
 /* 
 .subnav a {
@@ -298,8 +299,6 @@ button:hover {
     font-size: 35px;
     font-weight: bold;
 }
-
-
 
 
 /* 
