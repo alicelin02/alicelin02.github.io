@@ -70,6 +70,7 @@ div.sticky-nav {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .sticky-nav-other {
@@ -89,7 +90,6 @@ div.sticky-nav {
     top: 0;
     position: sticky;
     position: -webkit-sticky;
-    z-index: 1;
 }
 
 .nav-bar-li {
